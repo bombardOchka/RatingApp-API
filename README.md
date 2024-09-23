@@ -1,10 +1,10 @@
 # RatingApp API
 
-# My Node.js Project with Nest.js framework
+### My Node.js Project with Nest.js framework
 
-# Used Firebase Realtime Database
+### Used Firebase Realtime Database
 
-# Create .env file with this properties
+### Create .env file with this properties
 
 ```env
 FIREBASE_DATABASE_URL=your_firebase_database_url
