@@ -1,5 +1,5 @@
 import { ApiProperty } from '@nestjs/swagger';
-import { IsString, IsNotEmpty, IsNumber } from 'class-validator';
+import { IsString, IsNotEmpty, IsNumber, Max, Min } from 'class-validator';
 
 export class CreateReviewDto {
 	@ApiProperty({
@@ -24,5 +24,7 @@ export class CreateReviewDto {
 	})
 	@IsNumber()
 	@IsNotEmpty()
+	@Max(5)
+	@Min(0)
 	rating: number;
 }
