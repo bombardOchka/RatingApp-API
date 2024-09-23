@@ -1,4 +1,4 @@
-# RAtingApp API
+# RatingApp API
 
 # My Node.js Project with Nest.js framework
 
