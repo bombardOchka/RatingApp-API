@@ -4,12 +4,12 @@
 
 ### Used Firebase Realtime Database
 
+### Documentation: /api
+
 ### Create .env file with this properties
 
 ```env
 FIREBASE_DATABASE_URL=your_firebase_database_url
 FIREBASE_CREDENTIAL_PATH=your_firebase_credential_json_file_path
 JWT_SECRET=your_jwt_secret
-
-
 ```
